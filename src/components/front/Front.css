@@ -1,0 +1,62 @@
+
+.frontpageContainer{
+    min-height: 100vh;
+}
+
+.frontpageContainer p{
+    width: 400px;
+}
+
+.frontImg{
+    width: 300px;
+}
+
+button{
+    outline: none;
+    border: none;
+    background:#021d3b;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all .5s linear;
+    cursor: pointer;
+}
+
+button:hover{
+    background: transparent;
+    border: .3px solid #021d3b;
+    color: silver;
+}
+
+.frontTextContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.frontTextContainer h1{
+    font-size: 30px;
+    color: silver;
+}
+
+.frontTextContainer p{
+    font-size: 18px;
+    color: silver;
+}
+
+.frontTextContainer h5{
+    font-size: 20px;
+    color: aqua;
+}
+
+
+@media screen and (max-width: 800px) {
+    .frontpageContainer{
+       padding: 50px 0px;
+    }
+
+    .frontTextContainer{
+        text-align: center;
+    }
+}

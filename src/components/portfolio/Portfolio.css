@@ -1,0 +1,73 @@
+.portfolioSection h1{
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+}
+.portfolioSection p{
+    text-align: center;
+    color: silver;
+    font-size: 18px;
+}
+
+.portfolioContainer{
+    /* min-height: 100vh; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardImg{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    border: .2px solid rgb(10, 88, 156);
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #001328;
+}
+
+.cardTextContainer{
+    width: 400px;
+}
+
+.cardTextContainer h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(1, 76, 142);
+}
+
+.cardTextContainer span{
+    color: silver;
+}
+
+.cardTextContainer button{
+    margin-top: 10px;
+}
+
+.demoBtn{
+    background: rgb(1, 76, 142);
+    padding: 10px 20px;
+}
+
+.demoBtn a{
+    color: white;
+}
+
+
+@media screen and (max-width: 800px){
+
+    .card{
+        width: 400px;
+    }
+
+}

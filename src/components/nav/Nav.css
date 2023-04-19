@@ -1,0 +1,142 @@
+
+.portNameContainer h1{
+    font-weight:bold;
+    color: silver;
+}
+
+.SocialIcons{
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+.SocialIcons ul{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fixNavContainer{
+    position: fixed;
+    z-index: 1126778218236;
+}
+
+.navContainer{
+    padding: 20px 200px;
+    min-width: 100vw;
+}
+
+.harmContainer{
+    display: none;
+}
+
+.harmBtn{
+    width: 40px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.portNameContainer > h1{
+    font-size: 18px;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #001328;
+}
+
+.iconImg{
+    width: 20px;
+}
+
+.navItems ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navItems ul li a{
+    color: aqua;
+}
+
+
+
+.navSocialIcons ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 850px){
+    .navItems{
+        position: absolute;
+        transform: translateX(-800px);
+        transition: all .5s ease-in-out;
+        background: #001328;
+        min-width: 90vw;
+        top: 60px;
+    }
+
+    .navItemsShow{
+        position: absolute;
+        transform: translateX(0px);
+        transition: all .5s ease-in-out;
+        background: #001328;
+        min-width: 90vw;
+        top: 60px;
+        left: 0px;
+        padding: 10px;
+        border-radius: 0px 0px 20px 0px;
+        
+    }
+
+    .navItems ul{
+        display: grid;
+        gap: 20px;
+    }
+    .navItemsShow ul{
+        display: grid;
+        gap: 20px;
+    }
+
+    .harmContainer{
+        display: block;
+    }
+
+    .harmBtnRotate{
+        transform: rotate(90deg);
+        transition: all .3s linear;
+        width: 40px;
+        cursor: pointer;
+    }
+    .navItemsShow ul li{
+        border-bottom: .2px solid aqua;
+        padding: 10px;
+    }
+
+    .navItems ul li{
+        border-bottom: .2px solid aqua;
+        padding: 10px;
+    }
+
+    .navItemsShow ul li a{
+        color: aqua;
+    }
+
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 40px;
+    }
+}

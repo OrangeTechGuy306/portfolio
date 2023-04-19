@@ -1,0 +1,36 @@
+.footerSection{
+    background: #001328;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    gap: 20px;
+}
+
+footer h4{
+    background: #021d3b;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.footercv a{
+    color: white;
+    background: #021d3b;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.footerPortIcons ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
