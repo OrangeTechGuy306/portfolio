@@ -3,7 +3,8 @@ import "./Portfolio.css"
 import img from "../../assets/front.jpg"
 // import { Carousel } from "react-configurable-carousel";
 import { StackerSlide, StackerSlider } from "react-stacker-loaded";
-
+import Flicking from "@egjs/react-flicking";
+import "@egjs/flicking-plugins/dist/flicking-plugins.css";
 
 
 const Portfolio = () => {
@@ -37,7 +38,8 @@ const Portfolio = () => {
        slideHeight={"500px"}
        dots={true}
       >
-      
+
+  
         <StackerSlide>
             <div class="card">
             <div class="cardImgContainer">
