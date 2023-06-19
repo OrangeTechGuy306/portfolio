@@ -8,13 +8,13 @@
 }
 
 .frontImg{
-    width: 300px;
+    width: 500px;
 }
 
-button{
+.contactMeBtn button{
     outline: none;
     border: none;
-    background:#021d3b;
+    background: linear-gradient(to right, orangered, orange);
     color: white;
     padding: 15px 20px;
     border-radius: 10px;
@@ -22,10 +22,10 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.contactMeBtn button:hover{
     background: transparent;
     border: .3px solid #021d3b;
-    color: silver;
+    color: black;
 }
 
 .frontTextContainer{
@@ -37,17 +37,17 @@ button:hover{
 
 .frontTextContainer h1{
     font-size: 30px;
-    color: silver;
+    color: black;
 }
 
 .frontTextContainer p{
     font-size: 18px;
-    color: silver;
+    color: black;
 }
 
 .frontTextContainer h5{
     font-size: 20px;
-    color: aqua;
+    color: red;
 }
 
 

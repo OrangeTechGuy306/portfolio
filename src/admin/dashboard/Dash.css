@@ -1,0 +1,187 @@
+
+.dashCardContainer{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logoutBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    background: red;
+    cursor: pointer;
+    color: white;
+}
+
+.searchInput{
+    outline: none;
+    border: .5px solid orange;
+    background: transparent;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.searchBtn{
+    outline: none;
+    border: none;
+    background: orange;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tableFormContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.headerOne{
+    font-size: 1.2rem;
+    margin: 10px;
+    color: rgb(2, 114, 60);
+    font-weight: bold;
+}
+
+.headerTwo{
+    font-size: 2rem;
+    margin: 10px;
+    color: red;
+}
+
+.dashCard{
+    width: 300px;
+    background: rgb(255, 240, 213);
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.tableContainer{
+    /* margin: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+
+
+th{
+    padding: 10px 10px;
+    background:  orange;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+td{
+    padding: 10px 10px;
+}
+
+tr:nth-child(odd){
+    background: rgb(255, 246, 229);
+}
+
+.tableBtnDel{
+    background: red;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.tableBtnUpd{
+    background: rgb(1, 118, 67);
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.uploaderInputFile{
+    display: none;
+}
+
+.fileUploaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.formUploader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.uploaderInput{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: .5px solid orange;
+    padding: 0px 10px;
+}
+.uploaderBtn{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(1, 118, 67);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.camera{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 242, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 242, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+label{
+    cursor: pointer;
+}
+
+.uploaderDesc{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: .5px solid orange;
+    padding: 10px 10px;
+    resize: none;
+}

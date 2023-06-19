@@ -12,7 +12,7 @@
 }
 
 .downloadCvContainer a{
-    background: #033064;
+    background: linear-gradient(to right, orangered, orange);
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
@@ -29,7 +29,7 @@
 
 .aboutTextContainer p{
     text-align: justify;
-    color: silver;
+    color: black;
 }
 
 .otherAboutInfo{
@@ -41,13 +41,13 @@
 }
 
 .otherAboutInfo h2{
-    color: aqua;
+    color: black;
 }
 
 .expContainer span{
     font-size: 12px;
     text-align: center;
-    color: silver;
+    color: black;
 }
 
 .expContainer h2{

@@ -7,6 +7,7 @@ import Portfolio from '../../components/portfolio/Portfolio'
 import Intouch from '../../components/intouch/Intouch'
 import Footer from '../../components/footer/Footer'
 import Contact from '../../components/contact/Contact'
+import Resume from '../../components/resume/Resume'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Nav/>
             <Front/>
             <About/>
+            <Resume/>
             <Services/>
             <Portfolio/>
             <Contact/>

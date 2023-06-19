@@ -1,21 +1,28 @@
 .portfolioSection h1{
     text-align: center;
     font-size: 30px;
-    color: aqua;
+    color: orange;
 }
 .portfolioSection p{
     text-align: center;
-    color: silver;
+    color: black;
     font-size: 18px;
 }
 
 .portfolioContainer{
-    /* min-height: 100vh; */
+    width: 80%;
+    margin: 0px auto;
     display: grid;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
+
+.projectCardContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .cardImg{
     width: 200px;
@@ -23,17 +30,16 @@
 }
 
 .card{
-    margin-top: 50px;
+    margin: 50px 5px 0px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 700px;
-    border: .2px solid rgb(10, 88, 156);
     gap: 20px;
     border-radius: 20px;
     padding: 20px;
-    background: #001328;
+    background: linear-gradient(to right, orangered, orange);
 }
 
 .cardTextContainer{
@@ -43,11 +49,11 @@
 .cardTextContainer h1{
     font-size: 25px;
     margin-bottom: 10px;
-    color: rgb(1, 76, 142);
+    color: black;
 }
 
 .cardTextContainer span{
-    color: silver;
+    color: white;
 }
 
 .cardTextContainer button{
@@ -68,6 +74,12 @@
 
     .card{
         width: 400px;
+    }
+
+    .portfolioContainer{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
     }
 
 }

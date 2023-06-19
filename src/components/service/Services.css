@@ -4,28 +4,30 @@
     margin: 50px 0px;
     text-align: center;
     font-size: 30px;
-    color: aqua;
+    color: orange;
 }
 
 .services{
-    padding: 100px;
+    padding: 10px;
 }
 
 
 .servicesContainer{
-    /* min-height: 100vh; */
-    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    object-fit: cover;
+    object-fit: cover; */
 }
 
 .serviceBox{
     width: 250px;
     overflow: hidden;
-    background: #001328;
+    background: rgb(255, 251, 243);
+    margin: 0px 5px;
 }
 
 .serviceImg{
@@ -35,20 +37,19 @@
 .serviceText h3{
     text-align: center;
     text-transform: capitalize;
-    color: #04346c;
-    font-weight: bold;
+    color: orange;
     margin-top: 20px;
 }
 
 .serviceBox{
     border-radius: 10px;
-    border: 1px solid #021d3b;
     padding: 0px 0px 10px 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .serviceText ul{
     margin-top: 10px;
-    color: silver;
+    color: black;
 }
 
 .serviceText h4{
@@ -65,4 +66,14 @@
     width: 100%;
     height: 10px;
     /* background: yellow; */
+}
+
+@media screen and (max-width: 800px) {
+
+    .servicesContainer{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
 }

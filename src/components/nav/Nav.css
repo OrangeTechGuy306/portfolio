@@ -1,7 +1,6 @@
 
 .portNameContainer h1{
-    font-weight:bold;
-    color: silver;
+    color: orangered;
 }
 
 .SocialIcons{
@@ -46,7 +45,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: #001328;
+    background: rgb(255, 251, 243);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .iconImg{
@@ -62,7 +62,7 @@
 }
 
 .navItems ul li a{
-    color: aqua;
+    color: orangered;
 }
 
 
@@ -81,7 +81,7 @@
         position: absolute;
         transform: translateX(-800px);
         transition: all .5s ease-in-out;
-        background: #001328;
+        background: rgb(255, 251, 243);
         min-width: 90vw;
         top: 60px;
     }
@@ -90,7 +90,7 @@
         position: absolute;
         transform: translateX(0px);
         transition: all .5s ease-in-out;
-        background: #001328;
+        background: rgb(255, 251, 243);
         min-width: 90vw;
         top: 60px;
         left: 0px;
@@ -119,17 +119,17 @@
         cursor: pointer;
     }
     .navItemsShow ul li{
-        border-bottom: .2px solid aqua;
+        border-bottom: .2px solid orange;
         padding: 10px;
     }
 
     .navItems ul li{
-        border-bottom: .2px solid aqua;
+        border-bottom: .2px solid orange;
         padding: 10px;
     }
 
     .navItemsShow ul li a{
-        color: aqua;
+        color: orangered;
     }
 
     .navContainer{

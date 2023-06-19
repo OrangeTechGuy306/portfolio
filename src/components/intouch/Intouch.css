@@ -8,7 +8,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    background: #021d3b;
+    background: linear-gradient(to right, orangered, orange);
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
@@ -21,6 +21,7 @@
 
 .intouchTxtContainer h1{
     margin-bottom: 10px;
+    font-size: 2rem;
 }
 
 .intouchTxtContainer div{
@@ -28,7 +29,8 @@
 }
 
 .intouchTxtContainer a{
-    background: #001328;
+    background: orangered;
+    border: .5px solid white;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;

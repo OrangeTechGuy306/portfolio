@@ -1,6 +1,6 @@
 .addressContainer span{
     font-size:14px;
-    color: white;
+    color: black;
 }
 
 .addressContainer{
@@ -14,7 +14,7 @@
 
 .addressContainer h1{
     font-size: 16px;
-    color: aqua;
+    color: orange;
 }
 
 .contactSection{
@@ -27,7 +27,7 @@
 }
 
 .contactContainer > h1{
-    color: aqua;
+    color: orange;
 }
 
 .contactIcon{
@@ -43,7 +43,7 @@
     height: 50px;
     border-radius: 10px;
     outline: none;
-    border: .5px solid #022145;
+    border: .5px solid orange;
     background: transparent;
     padding: 0px 20px;
     color: silver;
@@ -54,7 +54,7 @@
     height: 150px;
     border-radius: 10px;
     outline: none;
-    border: .5px solid #022145;
+    border: .5px solid orange;
     background: transparent;
     resize: none;
     margin-top: 10px;
@@ -68,7 +68,7 @@
     border: none;
     border-radius: 10px;
     outline: none;
-    background: #022145;
+    background: linear-gradient(to right, orangered, orange);
     resize: none;
     color: white;
 }
