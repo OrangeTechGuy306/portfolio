@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 import "./Portfolio.css"
 import img from "../../assets/front.jpg"
-import { StackerSlide, StackerSlider } from "react-stacker-loaded";
 import Flicking from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
 
