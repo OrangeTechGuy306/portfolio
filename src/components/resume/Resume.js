@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Resume.css"
-import { FaLaptopCode} from "react-icons/fa";
+import { FaLaptopCode, FaFilePdf} from "react-icons/fa";
 import { AiOutlineMobile } from "react-icons/ai";
 import {Link} from "react-router-dom"
 
@@ -19,25 +19,25 @@ const Resume = () => {
             <div className='resumeCard'>
                     <FaLaptopCode size={50} color='orange'/>
                     <p>WEB DEVELOPER</p>
-                    <a href={`${web}`}>View</a>
+                    <a href={`${web}`} className='resumeLink'><FaFilePdf/> View Resume</a>
             </div>
 
             <div className='resumeCard'>
                     <AiOutlineMobile size={50} color='orange'/>
                     <p>MOBILE APP DEVELOPER</p>
-                    <a href={`${rcn}`}>View</a>
+                    <a href={`${rcn}`} className='resumeLink'><FaFilePdf/> View Resume</a>
             </div>
 
             <div className='resumeCard'>
                     <FaLaptopCode size={50} color='orange'/>
                     <p>FULL STACK DEVELOPER</p>
-                    <a href={`${mern}`}>View</a>
+                    <a href={`${mern}`} className='resumeLink'><FaFilePdf/> View Resume</a>
             </div>
 
             <div className='resumeCard'>
                     <FaLaptopCode size={50} color='orange'/>
                     <p>GRAPHICS DESIGN</p>
-                    <a href={`${graphics}`}>View</a>
+                    <a href={`${graphics}`} className='resumeLink'><FaFilePdf/> View Resume</a>
             </div>
 
         </div>

@@ -6,7 +6,8 @@
 .resumeSection h1{
     text-align: center;
     font-size: 2rem;
-    color: orangered;
+    color: orange;
+    margin-bottom: 20px;
 } 
 
 .resumeCard{
@@ -15,8 +16,9 @@
     gap: 5px;
     justify-content: center;
     align-items: center;
-    background: rgb(255, 250, 238);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    /* background: rgb(255, 246, 228); */
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); */
+    border: .5px solid orange;
     width: 300px;
     padding: 15px;
     border-radius: 20px;
@@ -33,4 +35,12 @@
 .resumeCard p{
     font-size: 1rem;
     color: orange;
+}
+
+.resumeLink{
+    background: linear-gradient(to right, orange, orangered);
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
 }

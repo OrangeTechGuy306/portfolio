@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Footer.css"
-import rtw from "../../assets/rtw.png"
-import rfb from "../../assets/rfb.png"
-import rin from "../../assets/rin.png"
+
+import { BsFacebook, BsWhatsapp, BsGithub } from 'react-icons/bs';
+import { FaTwitter } from 'react-icons/fa';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -17,10 +18,32 @@ const Footer = () => {
 
             <div class="footerPortIcons">
                 <ul>
-                    <li ><a href=""><img src={rfb} alt="" class="iconImg"/></a></li>
-                    <li><a href=""><img src={rtw} alt="" class="iconImg"/></a></li>
-                    <li><a href=""><img src={rin} alt="" class="iconImg"/></a></li>
-                    <li><a href=""><img src="" alt=""/></a></li>
+                    <li >
+                        <a href="https://web.facebook.com/muhammed.taofiq.16" target='_blank'>
+                            <BsFacebook color='orange' size={20}/> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/OrangeTechguy" target='_blank'>
+                            <FaTwitter color='orange' size={20}/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/in/hanafi-taofiq-b6345a229
+                        " target='_blank'>
+                            <AiFillLinkedin color='orange' size={20}/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+2349032339903"><img src="" alt=""/>
+                            <BsWhatsapp color='orange' size={20}/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/orangetechguy306" target='_blank'><img src="" alt=""/>
+                            <BsGithub color='orange' size={20}/>
+                        </a>
+                    </li>
                 </ul>
             </div>
 

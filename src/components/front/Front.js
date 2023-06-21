@@ -1,7 +1,6 @@
 import React from 'react'
 import resume_img from "../../assets/orange.png"
-import Fade from 'react-reveal';
-
+import { FiPhoneCall } from 'react-icons/fi';
 import "./Front.css"
 
 
@@ -17,7 +16,7 @@ const Front = () => {
           <h5>SOFTWARE DEVELOPER</h5>
           <p>High level experience in web, mobile and desktop app develpment. producing quality work</p>
               <div class="contactMeBtn">
-                  <button>Contact me</button>
+                  <button><FiPhoneCall size={20}/> Contact me</button>
               </div>
       </div>
 

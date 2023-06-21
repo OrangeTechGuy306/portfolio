@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 /api/node_modules
+/api
 .pnp.js
+/api/package.json
+
 
 # testing
 /coverage
