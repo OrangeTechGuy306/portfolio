@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Dash.css"
 import { BsTrashFill } from 'react-icons/bs';
 import { RxUpdate } from 'react-icons/rx';
-import { FaRegImages, FaUserTie } from 'react-icons/fa';
+import { FaRegImages, FaUserTie, FaFolderOpen } from 'react-icons/fa';
 import { AiOutlineVideoCameraAdd, AiOutlineCloudUpload } from 'react-icons/ai';
 
 const Dash = () => {
-    
+    const [open, setOpen] = useState(false)
     const handleChange=()=>{}
 
   return (
@@ -22,7 +22,11 @@ const Dash = () => {
                 <div className='logoutBtnContainer'>
                     <button className='logoutBtn'>
                         <FaUserTie color='yellow' size={20}/>
-                        <h1>Logout</h1>
+                        <p>Logout</p>
+                    </button>
+                    <button className='logoutBtn btnAdd' onClick={()=>setOpen(true)}>
+                        <FaFolderOpen color='yellow' size={20}/>
+                        <p>Add Project</p>
                     </button>
                 </div>
 
@@ -74,9 +78,15 @@ const Dash = () => {
                     </table>
 
                 </div> 
-
-                <div className='uploaderContainer'>
+            </div>
+        
+            {open ?  <div className='uploaderContainer'>
+                <div className='overlayForm'>
                     <form className='formUploader'>
+
+                        <div className="closeBtn" onClick={()=>setOpen(false)}>
+                            <h1>X</h1>
+                        </div>
 
                         <div>
                             <input type='text' className='uploaderInput' onChange={handleChange} placeholder='ENTER YOUR PROJECT NAME'/>
@@ -110,9 +120,7 @@ const Dash = () => {
 
                     </form>
                 </div>
-            </div>
-        
-            
+            </div> : null }
 
         </section>
   )

@@ -7,6 +7,15 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.logoutBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .logoutBtn{
@@ -14,12 +23,18 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     outline: none;
     border: none;
     background: red;
     cursor: pointer;
     color: white;
+    border-radius: 10px;
+}
+
+.btnAdd{
+    background: green;
+    border-radius: 10px;
 }
 
 .searchInput{
@@ -75,9 +90,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: scroll;
     /* min-height: 100vh; */
 }
-
 
 
 th{
@@ -104,6 +119,7 @@ tr:nth-child(odd){
     border: none;
     border-radius: 10px;
 }
+
 .tableBtnUpd{
     background: rgb(1, 118, 67);
     padding: 10px;
@@ -125,11 +141,14 @@ tr:nth-child(odd){
 }
 
 .formUploader{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    background: rgb(255, 241, 214);
+    padding: 50px 30px;
+    border-radius: 20px;
+    position: relative;
 }
 
 .uploaderInput{
@@ -184,4 +203,33 @@ label{
     border: .5px solid orange;
     padding: 10px 10px;
     resize: none;
+}
+
+.uploaderContainer{
+    min-height: 100vh;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: rgba(255, 237, 204, 0.3);
+}
+
+.overlayForm{
+    min-height: 100vh;
+    z-index: 94544398;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+.closeBtn h1:hover{
+    color: yellow;
+    cursor: pointer;
 }
