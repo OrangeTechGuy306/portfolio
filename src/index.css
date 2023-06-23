@@ -37,7 +37,7 @@ html{
 
 ::-webkit-scrollbar{
   width: 5px;
-  background: #001328;
+  background: orange;
 }
 
 ::-webkit-scrollbar-thumb{

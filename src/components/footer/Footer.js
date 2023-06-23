@@ -10,47 +10,36 @@ const Footer = () => {
     <section class="footerSection">
 
         <footer>
-
-            <div class="footerPortName">
-                <h1>Hanafi Taofiq</h1>
-                <h4>Software Developer</h4>
-            </div>
-
             <div class="footerPortIcons">
                 <ul>
                     <li >
                         <a href="https://web.facebook.com/muhammed.taofiq.16" target='_blank'>
-                            <BsFacebook color='orange' size={20}/> 
+                            <BsFacebook color='white' size={20}/> 
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/OrangeTechguy" target='_blank'>
-                            <FaTwitter color='orange' size={20}/>
+                            <FaTwitter color='yellow' size={20}/>
                         </a>
                     </li>
                     <li>
                         <a href="http://www.linkedin.com/in/hanafi-taofiq-b6345a229
                         " target='_blank'>
-                            <AiFillLinkedin color='orange' size={20}/>
+                            <AiFillLinkedin color='white' size={20}/>
                         </a>
                     </li>
                     <li>
                         <a href="https://wa.me/+2349032339903"><img src="" alt=""/>
-                            <BsWhatsapp color='orange' size={20}/>
+                            <BsWhatsapp color='yellow' size={20}/>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/orangetechguy306" target='_blank'><img src="" alt=""/>
-                            <BsGithub color='orange' size={20}/>
+                            <BsGithub color='white' size={20}/>
                         </a>
                     </li>
                 </ul>
             </div>
-
-            <div class="footercv">
-                <a href="">Download my CV</a>
-            </div>
-            
         </footer>
 
     </section>

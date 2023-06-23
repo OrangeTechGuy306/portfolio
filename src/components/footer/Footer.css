@@ -34,3 +34,11 @@ footer h4{
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.footerPortIcons{
+  background: orangered;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 5px solid white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
