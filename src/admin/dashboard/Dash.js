@@ -80,7 +80,9 @@ const Dash = () => {
                 </div> 
             </div>
         
-            {open ?  <div className='uploaderContainer'>
+            {open ? 
+                
+                <div className='uploaderContainer'>
                 <div className='overlayForm'>
                     <form className='formUploader'>
 
@@ -120,7 +122,9 @@ const Dash = () => {
 
                     </form>
                 </div>
-            </div> : null }
+                </div> 
+
+            : null }
 
         </section>
   )
