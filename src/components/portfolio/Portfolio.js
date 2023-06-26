@@ -28,7 +28,7 @@ const Portfolio = () => {
             
                 <div>
                     <button class="demoBtn flex-display-center">
-                    ` <BsPlayCircleFill color="white" size={25}/> 
+                     <BsPlayCircleFill color="white" size={25}/> 
                       <a href="" class="demoLink">
                           play Demo
                         </a>

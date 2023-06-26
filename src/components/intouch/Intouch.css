@@ -28,12 +28,20 @@
     margin-top: 20px;
 }
 
-.intouchTxtContainer a{
-    background: orangered;
+.dialBtn{
+    background: linear-gradient(to right, orange, orangered);
     border: .5px solid white;
-    color: white;
     padding: 10px 20px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+}
+
+.intouchTxtContainer a{
+    color: white;
 }
 
 

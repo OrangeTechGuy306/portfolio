@@ -8,6 +8,7 @@ import Intouch from '../../components/intouch/Intouch'
 import Footer from '../../components/footer/Footer'
 import Contact from '../../components/contact/Contact'
 import Resume from '../../components/resume/Resume'
+import More from '../../components/more/More'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Nav/>
             <Front/>
             <About/>
+            <More/>
             <Resume/>
             <Services/>
             <Portfolio/>

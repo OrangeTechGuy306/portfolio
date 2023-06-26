@@ -39,7 +39,8 @@
     gap: 20px;
     border-radius: 20px;
     padding: 20px;
-    background: linear-gradient(to right, orangered, orange);
+    background: cyan;
+    /* background: linear-gradient(to right, orangered, orange); */
 }
 
 .cardTextContainer{
@@ -62,7 +63,7 @@
 
 .demoBtn{
     background: linear-gradient(to right, orange, orangered);
-    padding: 5px 30px;
+    padding: 5px 10px;
     outline: none;
     border: none;
     border-radius: 10px;

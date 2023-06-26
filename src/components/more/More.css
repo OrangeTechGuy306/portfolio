@@ -1,0 +1,11 @@
+
+.moreContainer{
+    margin: 100px;
+}
+
+
+@media screen and (max-width: 900px){
+    .moreContainer{
+        margin: 10px;
+    }
+}
