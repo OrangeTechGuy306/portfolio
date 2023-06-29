@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import resume_img from "../../assets/orange.png"
+import resume_img from "../../assets/avector.png"
 import Fade from 'react-reveal';
 
 const About = () => {

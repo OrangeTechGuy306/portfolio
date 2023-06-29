@@ -23,7 +23,6 @@
     margin: 0 auto;
 }
 
-
 .cardImg{
     width: 200px;
     border-radius: 10px;
@@ -39,8 +38,7 @@
     gap: 20px;
     border-radius: 20px;
     padding: 20px;
-    background: cyan;
-    /* background: linear-gradient(to right, orangered, orange); */
+    background: linear-gradient(to right, orangered, orange);
 }
 
 .cardTextContainer{
@@ -62,8 +60,8 @@
 }
 
 .demoBtn{
-    background: linear-gradient(to right, orange, orangered);
-    padding: 5px 10px;
+    background: linear-gradient(to right, rgb(7, 110, 69), rgb(1, 66, 46));
+    padding: 10px 10px;
     outline: none;
     border: none;
     border-radius: 10px;
