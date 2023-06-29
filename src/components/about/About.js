@@ -13,7 +13,7 @@ const About = () => {
 
                 <Fade left>
                     <div class="aboutImg">
-                            <img src={resume_img} alt="" class="frontImg"/>
+                            <img src={resume_img} alt="" class="aboutImg"/>
                     </div>
                 </Fade>
                 
