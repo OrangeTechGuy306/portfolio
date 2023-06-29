@@ -90,7 +90,7 @@ nav ul li a{
         transition: all .5s ease-in-out;
         background: rgb(255, 251, 243);
         min-width: 90vw;
-        top: 60px;
+        top: 40px;
     }
 
     .navItemsShow{
@@ -99,7 +99,7 @@ nav ul li a{
         transition: all .5s ease-in-out;
         background: rgb(255, 251, 243);
         min-width: 90vw;
-        top: 60px;
+        top: 40px;
         left: 0px;
         padding: 10px;
         border-radius: 0px 0px 20px 0px;
