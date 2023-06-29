@@ -24,12 +24,13 @@
     } */
 
     .moreImg{
-        width: 200px;
+        width: 300px;
     }
 
     .moreAboutTextContainer{
-        width: 400px;
+        /* width: 300px; */
         text-align: justify;
+        margin: 10px;
         /* padding: 10px; */
     }
 }
