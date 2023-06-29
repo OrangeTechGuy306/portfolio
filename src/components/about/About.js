@@ -46,6 +46,7 @@ const About = () => {
               
 
         </div>
+        
     </section>
 
   )

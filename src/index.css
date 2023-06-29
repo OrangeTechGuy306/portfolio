@@ -35,6 +35,14 @@ html{
   gap: 20px;
 }
 
+.flex-display-center-no-reverse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 ::-webkit-scrollbar{
   width: 5px;
   background: orange;

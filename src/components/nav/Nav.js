@@ -32,7 +32,7 @@ const Nav = () => {
                 <ul>
                     <li><a href="#front"><AiOutlineHome/> Home</a></li>
                     <li><a href="#about"><AiOutlineUser/> About</a></li>
-                    <li><a href="#skill"><FaBorderStyle/> Skills</a></li>
+                    <li><a href="#skills"><FaBorderStyle/> Skills</a></li>
                     <li><a href="#serv"><RiServiceLine/> Services</a></li>
                     <li><a href="#port"><AiOutlineFolderOpen/> Portfolio</a></li>
                     <li>
