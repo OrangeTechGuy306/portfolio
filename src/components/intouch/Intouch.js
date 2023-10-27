@@ -12,7 +12,7 @@ const Intouch = () => {
 
                 <div class="intouchTxtContainer">
                    <h1>Have a new project?</h1>
-                   <p>Contact me now and get 20% discount</p>
+                   <p>Contact me now and get 5% discount</p>
                    <div  className='display-flex-center dialBtn'>
                         <FiPhoneCall/>
                       <a href="tel:+2349032339903">
