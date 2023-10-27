@@ -3,6 +3,9 @@ import "./More.css"
 import more from "../../assets/morevector.png"
 
 const More = () => {
+
+    
+
   return (
     <section>
         <div className='moreContainer'>
