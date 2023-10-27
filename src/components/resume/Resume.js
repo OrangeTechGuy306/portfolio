@@ -24,7 +24,7 @@ const Resume = () => {
             <div className='resumeCard'>
                     <AiOutlineMobile size={50} color='orange'/>
                     <p>REACT NATIVE DEVELOPER</p>
-                    <a href={`/pdf/hanafi_toafiq_RN.pdf`} className='resumeLink'><FaFilePdf/> View Resume</a>
+                    <a href={`/pdf/reactnative.pdf`} className='resumeLink'><FaFilePdf/> View Resume</a>
             </div>
 
             <div className='resumeCard'>
@@ -48,7 +48,7 @@ const Resume = () => {
             <div className='resumeCard'>
                     <FaLaptopCode size={50} color='orange'/>
                     <p>FULL STACK DEVELOPER (web & mobile)</p>
-                    <a href={`/pdf/hanafi_taofiq_cp.pdf`} className='resumeLink'><FaFilePdf/> View Resume</a>
+                    <a href={`/pdf/hanafi_taofiq_web_mobile.pdf`} className='resumeLink'><FaFilePdf/> View Resume</a>
             </div>
 
         </div>
